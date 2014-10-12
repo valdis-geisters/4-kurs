@@ -1,0 +1,7 @@
+D:\Development\lab1\CSharpCarClient\CSharpCarClient\bin\Release\CSharpCarClient.exe.config
+D:\Development\lab1\CSharpCarClient\CSharpCarClient\bin\Release\CSharpCarClient.exe
+D:\Development\lab1\CSharpCarClient\CSharpCarClient\bin\Release\CSharpCarClient.pdb
+D:\Development\lab1\CSharpCarClient\CSharpCarClient\bin\Release\CarLibrary.dll
+D:\Development\lab1\CSharpCarClient\CSharpCarClient\bin\Release\CarLibrary.pdb
+D:\Development\lab1\CSharpCarClient\CSharpCarClient\obj\Release\CSharpCarClient.exe
+D:\Development\lab1\CSharpCarClient\CSharpCarClient\obj\Release\CSharpCarClient.pdb

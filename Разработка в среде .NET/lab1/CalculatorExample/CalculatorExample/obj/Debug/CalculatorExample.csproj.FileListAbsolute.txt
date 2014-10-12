@@ -1,0 +1,5 @@
+D:\Development\lab1\CalculatorExample\CalculatorExample\bin\Debug\CalculatorExample.exe.config
+D:\Development\lab1\CalculatorExample\CalculatorExample\bin\Debug\CalculatorExample.exe
+D:\Development\lab1\CalculatorExample\CalculatorExample\bin\Debug\CalculatorExample.pdb
+D:\Development\lab1\CalculatorExample\CalculatorExample\obj\Debug\CalculatorExample.exe
+D:\Development\lab1\CalculatorExample\CalculatorExample\obj\Debug\CalculatorExample.pdb

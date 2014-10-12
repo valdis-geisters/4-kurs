@@ -1,0 +1,5 @@
+D:\Development\lab1\CarLibrary\CarLibrary\obj\Release\CarLibrary.csprojResolveAssemblyReference.cache
+D:\Development\lab1\CarLibrary\CarLibrary\bin\Release\CarLibrary.dll
+D:\Development\lab1\CarLibrary\CarLibrary\bin\Release\CarLibrary.pdb
+D:\Development\lab1\CarLibrary\CarLibrary\obj\Release\CarLibrary.dll
+D:\Development\lab1\CarLibrary\CarLibrary\obj\Release\CarLibrary.pdb
