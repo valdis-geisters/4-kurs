@@ -1,0 +1,67 @@
+x=[-1 11 6 10];
+y=[1 13 8 -2];
+interp(x,y)
+help interp
+interp(x,y,-1:1e-2:11,'cubic');
+interp(x,y,(-1:1e-2:11),'cubic');
+interp(x,y,[-1:1e-2:11],'cubic');
+interp(x,y,'cubic');
+interp1(x,y,[-1:1e-2:11],'cubic');
+plot([-1:1e-2:11],interp1(x,y,[-1:1e-2:11],'cubic'),'g');
+polyfit(x,y);
+polyfit(x,y,2);
+polyval(polyfit(x,y,2),[-1:1e-2:11]);
+plot([-1:1e-2:11],interp1(x,y,[-1:1e-2:11],'cubic'),'g',[-1:1e-2:11],polyval(polyfit(x,y,2),[-1:1e-2:11]),'r');
+plot([-1:1e-2:11],interp1(x,y,[-1:1e-2:11],'cubic'),'g',[-1:1e-2:11],polyval(polyfit(x,y,2),[-1:1e-2:11]),'r',x,y,'o');
+plot([-1:1e-2:11],interp1(x,y,[-1:1e-2:11],'cubic'),'g',[-1:1e-2:11],polyval(polyfit(x,y,2),[-1:1e-2:11]),'r',x,y,'o'), grid on
+clc
+syms x
+fx=x/((0.5*x+0.1)^3);
+FX=int(fx);
+difx=diff(fx);
+x=[3:1e-3:5];
+difx=double(diff(fx));
+fx=x/((0.5*x+0.1)^3);
+fx=x/((0.5.*x+0.1)^3);
+fx=x./((0.5.*x+0.1)^3);
+fx=x./((0.5.*x+0.1).^3);
+FX=int(fx);
+FX=double(FX);
+clc
+clear
+syms x
+fx=x./((0.5.*x+0.1)^3);
+x=[3:1e-3:5];
+FX=inf(syms(fx));
+FX=inf(sym(fx));
+FX=inf(fx);
+fx=x./((0.5.*x+0.1)^3);
+fx=x./((0.5.*x+0.1).^3);
+FX=inf(fx);
+difx=diff(fx);
+plot(x,fx,'g',x,FX,'r',x,diffx,'b')
+plot(x,fx,'g',x,FX,'r',x,difx,'b')
+plot(x,fx,'g')%,x,FX,'r',x,difx,'b')
+plot(x,fx,'g',x,FX,'r',x,difx,'b')
+difx
+fx
+FX
+home
+fx=x./((0.5.*x+0.1).^3);
+syms x
+FX=int(fx)
+clc
+syms x
+fx=x./((0.5.*x+0.1).^3);
+FX=int(fx)
+difx=diff(fx)
+x=[3:1e-3:5];
+FX=-(20*(10*x + 1))/(5*x + 1)^2;
+FX=-(20.*(10.*x + 1))./(5.*x + 1).^2;
+difx=1./(x./2 + 1/10).^3 - (3.*x)./(2.*(x./2 + 1./10).^4);
+plot(x,fx,'g',x,FX,'r',x,difx,'b')
+FX=-(20.*(10.*x + 1))./(5.*x + 1).^2
+difx=1./(x./2 + 1/10).^3 - (3.*x)./(2.*(x./2 + 1./10).^4)
+fx=x./((0.5.*x+0.1).^3);
+plot(x,fx,'g',x,FX,'r',x,difx,'b')
+plot(x,fx,'g',x,FX,'r',x,difx,'b'), grid on

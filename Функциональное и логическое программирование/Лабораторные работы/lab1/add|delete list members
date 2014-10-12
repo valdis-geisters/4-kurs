@@ -1,0 +1,20 @@
+friends(['Alice', 'Bob', 'Carl']).    % List example
+
+add(El, L, [El | L]).     % Add element El to list L and return a new list that has El as a head and L as tail
+
+delete(El, L1, L2) :-
+  del(El, L1, L2), !.
+
+del(El, [El | Tail ], Tail1) :-
+  del(El, Tail, Tail1).   % Remove head if equals our element and proceed further
+del(_, [], []).       % If empty, then return empty
+del(El, [Head | Tail], [Head | Tail1]) :-
+  del(El, Tail, Tail1).   % If head is not the element to be deleted, check tails
+
+insert(El, L1, Pos, L2) :-
+  ins(El, L1, Pos, L2), !.
+ins(El, L1, -1, [El | L1]).
+ins(El, [Head | Tail], Pos, [Head | Tail1]) :-
+  Pos > -1,
+  Pos1 is Pos - 1,
+  ins(El, Tail, Pos1, Tail1).

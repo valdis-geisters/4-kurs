@@ -1,0 +1,31 @@
+syms x
+x=[0.1:1e-3:1];
+
+fx=x./((sin(3.*x)).^2)-11;
+difx=(1-6*x.*cot(3*x)).*csc(3*x).^2;
+FX=1/9*(-99*x-3*x.*cot(3*x)+log(sin(3*x)));
+
+plot(x,fx,'g',x,FX,'r',x,difx,'b'), grid on
+
+
+/////////////////
+
+syms x
+x=[0.1:1e-3:1];
+
+fx=x./((sin(3.*x)).^2)-11;
+FX=x.*(- (2.*i)./3 - 11) + log(exp(6*x.*i) - 1)./9 - (2.*x.*i)./(3.*(exp(6*x.*i) - 1));
+difx=(1./sin(3.*x).^2) - (6.*x.*cos(3.*x))./(sin(3.*x).^3);
+
+plot(x,fx,'g',x,FX,'r',x,difx,'b'), grid on
+
+
+/////////////////
+
+lolo=diff(x./((sin(3*x)).^2)-11)
+lolo =
+1/sin(3*x)^2 - (6*x*cos(3*x))/sin(3*x)^3
+
+lala=int(x./((sin(3*x)).^2)-11)
+lala =
+x*(- (2*i)/3 - 11) + log(exp(6*x*i) - 1)/9 - (2*x*i)/(3*(exp(6*x*i) - 1))
