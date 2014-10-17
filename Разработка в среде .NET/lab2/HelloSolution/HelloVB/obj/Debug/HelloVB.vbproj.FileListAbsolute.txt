@@ -1,0 +1,11 @@
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloVB\bin\Debug\HelloVB.dll
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloVB\bin\Debug\HelloVB.pdb
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloVB\bin\Debug\HelloVB.xml
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloVB\bin\Debug\HelloCPP.dll
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloVB\bin\Debug\HelloCPP.pdb
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloVB\obj\Debug\HelloVB.vbprojResolveAssemblyReference.cache
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloVB\obj\Debug\HelloVB.Resources.resources
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloVB\obj\Debug\HelloVB.vbproj.GenerateResource.Cache
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloVB\obj\Debug\HelloVB.dll
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloVB\obj\Debug\HelloVB.xml
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloVB\obj\Debug\HelloVB.pdb

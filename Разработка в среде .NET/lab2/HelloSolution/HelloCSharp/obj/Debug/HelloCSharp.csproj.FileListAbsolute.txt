@@ -1,0 +1,11 @@
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloCSharp\bin\Debug\HelloCSharp.exe.config
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloCSharp\bin\Debug\HelloCSharp.exe
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloCSharp\bin\Debug\HelloCSharp.pdb
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloCSharp\bin\Debug\HelloCPP.dll
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloCSharp\bin\Debug\HelloVB.dll
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloCSharp\bin\Debug\HelloCPP.pdb
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloCSharp\bin\Debug\HelloVB.pdb
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloCSharp\bin\Debug\HelloVB.xml
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloCSharp\obj\Debug\HelloCSharp.csprojResolveAssemblyReference.cache
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloCSharp\obj\Debug\HelloCSharp.exe
+D:\Git\4 курс\Разработка в среде .NET\lab2\HelloSolution\HelloCSharp\obj\Debug\HelloCSharp.pdb
