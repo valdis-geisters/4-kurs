@@ -1,4 +1,4 @@
-function result = approximation(x,y,k)
+function result = ls_approximation(x,y,k)
 
     if(length(x) == length(y))
         n = k+1;
@@ -12,7 +12,7 @@ function result = approximation(x,y,k)
         % находим a
         for i=1:n
             if(i == 1)
-               a(1,1) = m;
+               a(1,1) = m+1;
                
                for j=2:n
                    tmp = 0;
@@ -47,8 +47,8 @@ function result = approximation(x,y,k)
             b(i+1,1) = tmp;
         end
         
-        disp(a);
-        disp(b);
+        %disp(a);
+        %disp(b);
         
         % найденный полином
         result = fliplr(gauss(a, b)');
