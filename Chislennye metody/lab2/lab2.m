@@ -1,20 +1,21 @@
 clear, clc, close all, hold on
 
-x = [-3 -2 -1 0 1 2 3];
-y = [0.1 0.8 0.9 1.6 2.4 2.6 4.2];
-k = 2;
+% x = [-3.2 -2.1 0.4 0.7 2 2.5 2.777];
+% y = [10 -2 0 -7 7 0 0];
+% k = 7;
 
-% аппроксимация по методу МНК
-ls_approximation(x, y, k);
+x = -2:0.5:2;
+y = sin(5*x).*exp(1).^x;
+k = 9;
 
-% аппроксимация полиномом Лежандра
-% orthogonal_approximation(x, y, k);
+% x = [-1 14 6 10];
+% y = [1 2 8 -2];
+% k = 4;
 
-x1 = -3:1e-2:3;
-y1 = polyval([0.1394 0.6241 1.7303],x1);
+% x = -1:0.2:1;
+% y = abs(x);
+% k = 11;
 
-plot(x1,y1,'r');
-grid on;
-        
-% точки на графике
-plot(x,y,'o');
+disp(approximation(x, y, k));
+disp(legendre_approximation(x, y, k));
+plot(x,y,'*k');
