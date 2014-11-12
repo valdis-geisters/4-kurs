@@ -1,0 +1,11 @@
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\HelloSolution\HelloVB\bin\Release\HelloVB.dll
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\HelloSolution\HelloVB\bin\Release\HelloVB.pdb
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\HelloSolution\HelloVB\bin\Release\HelloVB.xml
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\HelloSolution\HelloVB\bin\Release\HelloCPP.dll
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\HelloSolution\HelloVB\bin\Release\HelloCPP.pdb
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\HelloSolution\HelloVB\obj\Release\HelloVB.vbprojResolveAssemblyReference.cache
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\HelloSolution\HelloVB\obj\Release\HelloVB.Resources.resources
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\HelloSolution\HelloVB\obj\Release\HelloVB.vbproj.GenerateResource.Cache
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\HelloSolution\HelloVB\obj\Release\HelloVB.dll
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\HelloSolution\HelloVB\obj\Release\HelloVB.xml
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\HelloSolution\HelloVB\obj\Release\HelloVB.pdb
