@@ -11,10 +11,11 @@ function polynomial = approximation(x, y, k)
         
         % строим сис. ур.
         % находим a
+        disp(m);
         for i=1:n
            for j=1:n
               if i == 1 && j == 1
-                 a(i,j) = m + 1; 
+                 a(i,j) = m; 
               else
                   tmp = 0;
                   
@@ -38,8 +39,18 @@ function polynomial = approximation(x, y, k)
             b(i,1) = tmp;
         end
         
+        disp('Система при заданном порядке');
+        disp(k);
+        disp(a);
+        disp(b);
+        
         % решаем слау -> получаем полином
-        polynomial = fliplr(gauss(a, b)');
+        g = gauss(a,b);
+        
+        disp('Коэффициенты a');
+        disp(g);
+        
+        polynomial = fliplr(g');
         
         % рисуем график
         x1 = Min:1e-2:Max;
@@ -47,6 +58,7 @@ function polynomial = approximation(x, y, k)
         
         plot(x1,y1,'m');
         grid on;
+     
     else
        disp('Approximation error. Invalid data.'); 
     end
