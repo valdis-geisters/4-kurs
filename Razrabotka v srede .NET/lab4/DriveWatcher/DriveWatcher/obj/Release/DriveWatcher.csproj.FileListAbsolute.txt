@@ -1,0 +1,6 @@
+D:\4-kurs\Razrabotka v srede .NET\lab4\DriveWatcher\DriveWatcher\bin\Release\DriveWatcher.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab4\DriveWatcher\DriveWatcher\bin\Release\DriveWatcher.exe
+D:\4-kurs\Razrabotka v srede .NET\lab4\DriveWatcher\DriveWatcher\bin\Release\DriveWatcher.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab4\DriveWatcher\DriveWatcher\obj\Release\DriveWatcher.csprojResolveAssemblyReference.cache
+D:\4-kurs\Razrabotka v srede .NET\lab4\DriveWatcher\DriveWatcher\obj\Release\DriveWatcher.exe
+D:\4-kurs\Razrabotka v srede .NET\lab4\DriveWatcher\DriveWatcher\obj\Release\DriveWatcher.pdb

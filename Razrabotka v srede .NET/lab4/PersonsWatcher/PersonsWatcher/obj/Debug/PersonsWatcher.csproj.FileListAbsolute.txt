@@ -1,0 +1,9 @@
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonsWatcher\PersonsWatcher\bin\Debug\PersonsWatcher.exe.config
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonsWatcher\PersonsWatcher\bin\Debug\PersonsWatcher.exe
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonsWatcher\PersonsWatcher\bin\Debug\PersonsWatcher.pdb
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonsWatcher\PersonsWatcher\obj\Debug\PersonsWatcher.csprojResolveAssemblyReference.cache
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonsWatcher\PersonsWatcher\obj\Debug\PersonsWatcher.exe
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonsWatcher\PersonsWatcher\obj\Debug\PersonsWatcher.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonsWatcher\PersonsWatcher\bin\Debug\PersonsWatcher.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonsWatcher\PersonsWatcher\obj\Debug\PersonsWatcher.exe
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonsWatcher\PersonsWatcher\obj\Debug\PersonsWatcher.pdb

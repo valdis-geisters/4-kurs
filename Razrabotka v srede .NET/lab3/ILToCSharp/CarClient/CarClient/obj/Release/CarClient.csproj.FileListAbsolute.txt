@@ -1,0 +1,7 @@
+D:\4-kurs\Razrabotka v srede .NET\lab3\ILToCSharp\CarClient\CarClient\bin\Release\CarClient.exe
+D:\4-kurs\Razrabotka v srede .NET\lab3\ILToCSharp\CarClient\CarClient\bin\Release\CarClient.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab3\ILToCSharp\CarClient\CarClient\bin\Release\CILCars.dll
+D:\4-kurs\Razrabotka v srede .NET\lab3\ILToCSharp\CarClient\CarClient\bin\Release\CILCars.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab3\ILToCSharp\CarClient\CarClient\obj\Release\CarClient.exe
+D:\4-kurs\Razrabotka v srede .NET\lab3\ILToCSharp\CarClient\CarClient\obj\Release\CarClient.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab3\ILToCSharp\CarClient\CarClient\obj\Release\CarClient.csprojResolveAssemblyReference.cache

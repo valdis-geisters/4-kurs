@@ -1,0 +1,5 @@
+D:\4-kurs\Razrabotka v srede .NET\lab3\ILToCSharp\CILCars\CILCars\obj\Debug\CILCars.csprojResolveAssemblyReference.cache
+D:\4-kurs\Razrabotka v srede .NET\lab3\ILToCSharp\CILCars\CILCars\bin\Debug\CILCars.dll
+D:\4-kurs\Razrabotka v srede .NET\lab3\ILToCSharp\CILCars\CILCars\bin\Debug\CILCars.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab3\ILToCSharp\CILCars\CILCars\obj\Debug\CILCars.dll
+D:\4-kurs\Razrabotka v srede .NET\lab3\ILToCSharp\CILCars\CILCars\obj\Debug\CILCars.pdb

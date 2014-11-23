@@ -1,0 +1,6 @@
+D:\4-kurs\Razrabotka v srede .NET\lab4\DriveInfo\DriveInfo\bin\Release\DriveInfo.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab4\DriveInfo\DriveInfo\bin\Release\DriveInfo.exe
+D:\4-kurs\Razrabotka v srede .NET\lab4\DriveInfo\DriveInfo\bin\Release\DriveInfo.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab4\DriveInfo\DriveInfo\obj\Release\DriveInfo.csprojResolveAssemblyReference.cache
+D:\4-kurs\Razrabotka v srede .NET\lab4\DriveInfo\DriveInfo\obj\Release\DriveInfo.exe
+D:\4-kurs\Razrabotka v srede .NET\lab4\DriveInfo\DriveInfo\obj\Release\DriveInfo.pdb

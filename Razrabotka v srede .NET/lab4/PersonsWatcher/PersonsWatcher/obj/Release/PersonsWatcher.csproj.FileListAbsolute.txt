@@ -1,0 +1,8 @@
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonsWatcher\PersonsWatcher\bin\Release\PersonsWatcher.exe.config
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonsWatcher\PersonsWatcher\bin\Release\PersonsWatcher.exe
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonsWatcher\PersonsWatcher\bin\Release\PersonsWatcher.pdb
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonsWatcher\PersonsWatcher\obj\Release\PersonsWatcher.exe
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonsWatcher\PersonsWatcher\obj\Release\PersonsWatcher.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonsWatcher\PersonsWatcher\bin\Release\PersonsWatcher.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonsWatcher\PersonsWatcher\obj\Release\PersonsWatcher.exe
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonsWatcher\PersonsWatcher\obj\Release\PersonsWatcher.pdb

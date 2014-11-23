@@ -1,0 +1,12 @@
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonToFIle\PersonToFIle\bin\Debug\PersonToFIle.exe.config
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonToFIle\PersonToFIle\bin\Debug\PersonToFIle.exe
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonToFIle\PersonToFIle\bin\Debug\PersonToFIle.pdb
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonToFIle\PersonToFIle\obj\Debug\PersonToFIle.csprojResolveAssemblyReference.cache
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonToFIle\PersonToFIle\obj\Debug\PersonToFIle.exe
+D:\Git\4 курс\Razrabotka v srede .NET\lab2\PersonToFIle\PersonToFIle\obj\Debug\PersonToFIle.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonToFIle\PersonToFIle\bin\Debug\PersonToFIle.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonToFIle\PersonToFIle\obj\Debug\PersonToFIle.exe
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonToFIle\PersonToFIle\obj\Debug\PersonToFIle.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonToFIle\PersonToFIle\bin\Debug\PersonToFIle.exe
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonToFIle\PersonToFIle\bin\Debug\PersonToFIle.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonToFIle\PersonToFIle\obj\Debug\PersonToFIle.csprojResolveAssemblyReference.cache

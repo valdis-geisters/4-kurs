@@ -1,0 +1,5 @@
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonToFIle\PersonToFIle\bin\Release\PersonToFIle.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonToFIle\PersonToFIle\bin\Release\PersonToFIle.exe
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonToFIle\PersonToFIle\bin\Release\PersonToFIle.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonToFIle\PersonToFIle\obj\Release\PersonToFIle.exe
+D:\4-kurs\Razrabotka v srede .NET\lab4\PersonToFIle\PersonToFIle\obj\Release\PersonToFIle.pdb

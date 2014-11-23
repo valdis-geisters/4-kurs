@@ -1,5 +1,5 @@
-// Reference mscorlib.dll and
-// System.Windows.Forms.dll.
+// ссылки на mscorlib.dll и
+// System.Windows.Forms.dll
 .assembly extern mscorlib
 {
 	.publickeytoken = (B7 7A 5C 56 19 34 E0 89)
@@ -12,87 +12,80 @@
 	.ver 4:0:0:0
 }
 
-// Define the single-file assembly.
+// Определить однофайловую сборку
 .assembly CILCars
 {
 	.hash algorithm 0X00008004
 	.ver 1:0:0:0
 }
-
 .module CILCars.dll
 
-// Implementation of CILCars.CILCar type.
+// Реализация типа CILCars.CILCar
 .namespace CILCars
 {
-	.class public auto ansi beforefieldinit CILCar
-	extends [mscorlib]System.Object
+	.class public auto ansi beforefieldinit CILCar extends [mscorlib]System.Object
 	{
-	// The field data of the CILCar.
-	.field public string petName
-	.field public int32 currSpeed
+    // Поля данных CILCar
+	  .field public string petName
+	  .field public int32 currSpeed
 	
-	// The custom constructor simply allows the caller
-	// to assign the field data.
-	.method public hidebysig specialname rtspecialname
-	instance void .ctor(int32 c, string p) cil managed
-	{
-	.maxstack 8
+	  // Конструктор - позволяет вызывающему коду присваивать поля данных
+	  .method public hidebysig specialname rtspecialname instance void .ctor(int32 c, string p) cil managed
+    {
+	    .maxstack 8
 	
-	// Load first arg onto the stack and call base class ctor.
-	ldarg.0  // "this" object, not the int32!
-	call instance void [mscorlib]System.Object::.ctor()
+	    // Загрузить первый аргумент в стек и вызвать конструктор базового класса
+	    ldarg.0  // this
+	    call instance void [mscorlib]System.Object::.ctor()
 	
-	// Now load first and second args onto the stack.
-	ldarg.0 // "this" object
-	ldarg.1 // int32 arg
+	    // Загрузить первый аргумент в стек
+	    ldarg.0
+	    ldarg.1
 	
-	// Store topmost stack (int 32) member in currSpeed field.
-	stfld int32 CILCars.CILCar::currSpeed
+	    // Сохранить самый верхний элемент стека в поле currSpeed
+	    stfld int32 CILCars.CILCar::currSpeed
 	
-	// Load string arg and store in petName field.
-	ldarg.0  // "this" object
-	ldarg.2 // string arg
-	stfld string CILCars.CILCar::petName
-	ret
-	}
-   }
-// }	move this bracket to the end of the file
+	    // Загрузить строковый аргумент в стек и сохранить его в поле petName
+	    ldarg.0
+	    ldarg.2
+	    stfld string CILCars.CILCar::petName
+	    ret
+	  }
+  }
 	
-.class public auto ansi beforefieldinit CILCarInfo
-	extends [mscorlib]System.Object
-	{
-	.method public hidebysig static void
-	Display(class CILCars.CILCar c) cil managed
-		{
-		.maxstack 8
+  .class public auto ansi beforefieldinit CILCarInfo extends [mscorlib]System.Object
+  {
+	  .method public hidebysig static void Display(class CILCars.CILCar c) cil managed
+    {
+		  .maxstack 8
 		
-		// We need a local string variable.
-		.locals init ([0] string caption)
+		  // нам нужна локальная строковая переменная
+		  .locals init ([0] string caption)
 		
-		// Load string and the incoming CILCar onto the stack.
-		ldstr "{0}'s speed is:"
-		ldarg.0
+		  // загрузка строки и выходного параметра CILCar в стек
+		  ldstr "{0}'s speed is:"
+		  ldarg.0
 		
-		// Now place the value of the CILCar's petName on the 
-		// stack and call the static String.Format() method.
-		ldfld string CILCars.CILCar::petName
-		call string [mscorlib]System.String::Format(string, object)
-		stloc.0
+		  // поместить в стек значение поля petName из CILCar 
+		  // и вызвать статический метод String.Format()
+		  ldfld string CILCars.CILCar::petName
+		  call string [mscorlib]System.String::Format(string, object)
+		  stloc.0
 		
-		// Now load the value of the currSpeed field and get its string
-		// representation (note call to ToString().
-		ldarg.0
-		ldflda int32 CILCars.CILCar::currSpeed
-		call instance string [mscorlib]System.Int32::ToString()
-		ldloc.0
+		  // загрузить значение поля currSpeed и получить его строковое
+      // представление (обрати внимание на ToString())
+		  ldarg.0
+		  ldflda int32 CILCars.CILCar::currSpeed
+		  call instance string [mscorlib]System.Int32::ToString()
+		  ldloc.0
 		
-		// Now call the MessageBox.Show() method with loaded values.
-		call valuetype [System.Windows.Forms]
-		System.Windows.Forms.DialogResult
-		[System.Windows.Forms]
-		System.Windows.Forms.MessageBox::Show(string, string)
-		pop
-		ret
+		  // Вызвать метод MessageBox.Show() с загруженными значениями
+		  call valuetype [System.Windows.Forms]
+		    System.Windows.Forms.DialogResult
+		    [System.Windows.Forms]
+		    System.Windows.Forms.MessageBox::Show(string, string)
+		  pop
+		  ret
 		}
 	}
-}  // add it here
+}

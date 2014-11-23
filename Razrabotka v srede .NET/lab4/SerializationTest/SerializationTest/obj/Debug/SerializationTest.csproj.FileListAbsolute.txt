@@ -1,0 +1,6 @@
+D:\4-kurs\Razrabotka v srede .NET\lab4\SerializationTest\SerializationTest\bin\Debug\SerializationTest.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab4\SerializationTest\SerializationTest\bin\Debug\SerializationTest.exe
+D:\4-kurs\Razrabotka v srede .NET\lab4\SerializationTest\SerializationTest\bin\Debug\SerializationTest.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab4\SerializationTest\SerializationTest\obj\Debug\SerializationTest.csprojResolveAssemblyReference.cache
+D:\4-kurs\Razrabotka v srede .NET\lab4\SerializationTest\SerializationTest\obj\Debug\SerializationTest.exe
+D:\4-kurs\Razrabotka v srede .NET\lab4\SerializationTest\SerializationTest\obj\Debug\SerializationTest.pdb
