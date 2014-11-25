@@ -24,7 +24,6 @@ function result = bisection(fun, a, b, e)
         
         result = X(i,1);
     else
-       disp('Error. Invalid data.');
-       result = 0;
+       result = [];
     end
 end
