@@ -1,0 +1,6 @@
+D:\4-kurs\Razrabotka v srede .NET\lab5\Exceptions\Exceptions\bin\Debug\Exceptions.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab5\Exceptions\Exceptions\bin\Debug\Exceptions.exe
+D:\4-kurs\Razrabotka v srede .NET\lab5\Exceptions\Exceptions\bin\Debug\Exceptions.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab5\Exceptions\Exceptions\obj\Debug\Exceptions.csprojResolveAssemblyReference.cache
+D:\4-kurs\Razrabotka v srede .NET\lab5\Exceptions\Exceptions\obj\Debug\Exceptions.exe
+D:\4-kurs\Razrabotka v srede .NET\lab5\Exceptions\Exceptions\obj\Debug\Exceptions.pdb
