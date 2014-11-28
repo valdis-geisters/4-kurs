@@ -1,0 +1,5 @@
+D:\4-kurs\Razrabotka v srede .NET\lab6\SimpleFinalize\SimpleFinalize\bin\Release\SimpleFinalize.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab6\SimpleFinalize\SimpleFinalize\bin\Release\SimpleFinalize.exe
+D:\4-kurs\Razrabotka v srede .NET\lab6\SimpleFinalize\SimpleFinalize\bin\Release\SimpleFinalize.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab6\SimpleFinalize\SimpleFinalize\obj\Release\SimpleFinalize.exe
+D:\4-kurs\Razrabotka v srede .NET\lab6\SimpleFinalize\SimpleFinalize\obj\Release\SimpleFinalize.pdb

@@ -1,0 +1,6 @@
+D:\4-kurs\Razrabotka v srede .NET\lab6\SimpleFinalize\SimpleFinalize\bin\Debug\SimpleFinalize.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab6\SimpleFinalize\SimpleFinalize\bin\Debug\SimpleFinalize.exe
+D:\4-kurs\Razrabotka v srede .NET\lab6\SimpleFinalize\SimpleFinalize\bin\Debug\SimpleFinalize.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab6\SimpleFinalize\SimpleFinalize\obj\Debug\SimpleFinalize.csprojResolveAssemblyReference.cache
+D:\4-kurs\Razrabotka v srede .NET\lab6\SimpleFinalize\SimpleFinalize\obj\Debug\SimpleFinalize.exe
+D:\4-kurs\Razrabotka v srede .NET\lab6\SimpleFinalize\SimpleFinalize\obj\Debug\SimpleFinalize.pdb

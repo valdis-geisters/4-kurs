@@ -1,0 +1,6 @@
+D:\4-kurs\Razrabotka v srede .NET\lab6\Generation_GC\Generation_GC\bin\Debug\Generation_GC.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab6\Generation_GC\Generation_GC\obj\Debug\Generation_GC.csprojResolveAssemblyReference.cache
+D:\4-kurs\Razrabotka v srede .NET\lab6\Generation_GC\Generation_GC\bin\Debug\Generation_GC.exe
+D:\4-kurs\Razrabotka v srede .NET\lab6\Generation_GC\Generation_GC\bin\Debug\Generation_GC.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab6\Generation_GC\Generation_GC\obj\Debug\Generation_GC.exe
+D:\4-kurs\Razrabotka v srede .NET\lab6\Generation_GC\Generation_GC\obj\Debug\Generation_GC.pdb

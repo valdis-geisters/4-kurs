@@ -1,0 +1,5 @@
+D:\4-kurs\Razrabotka v srede .NET\lab6\Generation_GC\Generation_GC\bin\Release\Generation_GC.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab6\Generation_GC\Generation_GC\bin\Release\Generation_GC.exe
+D:\4-kurs\Razrabotka v srede .NET\lab6\Generation_GC\Generation_GC\bin\Release\Generation_GC.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab6\Generation_GC\Generation_GC\obj\Release\Generation_GC.exe
+D:\4-kurs\Razrabotka v srede .NET\lab6\Generation_GC\Generation_GC\obj\Release\Generation_GC.pdb

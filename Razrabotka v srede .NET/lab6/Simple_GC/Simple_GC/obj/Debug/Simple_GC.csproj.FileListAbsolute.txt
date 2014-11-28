@@ -1,0 +1,6 @@
+D:\4-kurs\Razrabotka v srede .NET\lab6\Simple_GC\Simple_GC\bin\Debug\Simple_GC.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab6\Simple_GC\Simple_GC\bin\Debug\Simple_GC.exe
+D:\4-kurs\Razrabotka v srede .NET\lab6\Simple_GC\Simple_GC\bin\Debug\Simple_GC.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab6\Simple_GC\Simple_GC\obj\Debug\Simple_GC.csprojResolveAssemblyReference.cache
+D:\4-kurs\Razrabotka v srede .NET\lab6\Simple_GC\Simple_GC\obj\Debug\Simple_GC.exe
+D:\4-kurs\Razrabotka v srede .NET\lab6\Simple_GC\Simple_GC\obj\Debug\Simple_GC.pdb

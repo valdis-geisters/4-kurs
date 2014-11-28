@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//Создать exceptin MyDateException
 namespace Exceptions
 {
   class MyDate
@@ -18,17 +17,17 @@ namespace Exceptions
     {
       if (day < 1 || day > 30)
       {
-        this.day = 0; //throw
+        throw new MyDateException("День не может быть меньше 0 и больше 30");
       }
 
       if (month < 1 || month > 12)
       {
-        this.month = 0; //throw
+        throw new MyDateException("Месяц не может быть меньше 0 и больше 12");
       }
 
       if (year < 1 || year > 9999)
       {
-        this.year = 0; //throw
+        throw new MyDateException("Год не может быть меньше 0 и больше 9999");
       }
 
       this.day = day;
@@ -46,14 +45,24 @@ namespace Exceptions
       return date;
     }
 
-    public int Difference(MyDate date)
+    public uint Difference(MyDate date)
     {
-      int days1 = this.year*12 + this.month*30 + this.day;
-      int days2 = date.year*12 + date.month*30 + date.day;
+      uint days1 = 0;
+      uint days2 = 0;
+
+      try
+      {
+        days1 = Convert.ToUInt32(this.year * 12 * 30 + this.month * 30 + this.day);
+        days2 = Convert.ToUInt32(date.year * 12 * 30 + date.month * 30 + date.day);
+      }
+      catch (Exception exepction)
+      {
+        throw new MyDateException("Упс. Что-то пошло не так.");
+      }
 
       if (days1 < days2)
       {
-        return 0;
+        throw new MyDateException("Первая дата не может быть меньше второй.");
       }
 
       return days1 - days2;

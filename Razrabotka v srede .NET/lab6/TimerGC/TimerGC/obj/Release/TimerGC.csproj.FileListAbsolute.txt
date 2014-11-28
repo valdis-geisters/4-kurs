@@ -1,0 +1,5 @@
+D:\4-kurs\Razrabotka v srede .NET\lab6\TimerGC\TimerGC\bin\Release\TimerGC.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab6\TimerGC\TimerGC\bin\Release\TimerGC.exe
+D:\4-kurs\Razrabotka v srede .NET\lab6\TimerGC\TimerGC\bin\Release\TimerGC.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab6\TimerGC\TimerGC\obj\Release\TimerGC.exe
+D:\4-kurs\Razrabotka v srede .NET\lab6\TimerGC\TimerGC\obj\Release\TimerGC.pdb

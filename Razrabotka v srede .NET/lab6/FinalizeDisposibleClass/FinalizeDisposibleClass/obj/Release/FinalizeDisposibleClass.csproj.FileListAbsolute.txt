@@ -1,0 +1,5 @@
+D:\4-kurs\Razrabotka v srede .NET\lab6\FinalizeDisposibleClass\FinalizeDisposibleClass\bin\Release\FinalizeDisposibleClass.exe.config
+D:\4-kurs\Razrabotka v srede .NET\lab6\FinalizeDisposibleClass\FinalizeDisposibleClass\bin\Release\FinalizeDisposibleClass.exe
+D:\4-kurs\Razrabotka v srede .NET\lab6\FinalizeDisposibleClass\FinalizeDisposibleClass\bin\Release\FinalizeDisposibleClass.pdb
+D:\4-kurs\Razrabotka v srede .NET\lab6\FinalizeDisposibleClass\FinalizeDisposibleClass\obj\Release\FinalizeDisposibleClass.exe
+D:\4-kurs\Razrabotka v srede .NET\lab6\FinalizeDisposibleClass\FinalizeDisposibleClass\obj\Release\FinalizeDisposibleClass.pdb
