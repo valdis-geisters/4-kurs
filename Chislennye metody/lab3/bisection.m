@@ -22,6 +22,7 @@ function result = bisection(fun, a, b, e)
             end
         end
         
+        disp(i);
         result = X(i,1);
     else
        result = [];

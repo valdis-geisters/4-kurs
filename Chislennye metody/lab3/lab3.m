@@ -1,18 +1,17 @@
 clear, clc, close all
 
-% fun = 'x*2^(3*x)';
+%fun = 'x*2^(3*x)-14';
 fun = 'x^2*sin(x)';
-% fun = 'x^2+sin(x)';
-% fun = 'x*(sin(2*x))=0';
-% fun = '2^(3*x)=0';
-% fun = 'e^(2*x)*sin(x)=0';
+%fun = 'x^2+sin(x)-14';
+%fun = 'x*(sin(2*x))';
+%fun = '2^(3*x)-14';
 
 start_point = -10;
 end_point = 10;
-step = 2;
-e = 0.0001;
+step = 1;
+e = 0.001;
 
-% x = bisection2(fun, start_point, end_point, step, e);
+%x = bisection2(fun, start_point, end_point, step, e);
 x = newton_correction2(fun, start_point, end_point, step, e);
 
 grid on; hold on;

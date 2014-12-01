@@ -1,16 +1,13 @@
 function result = newton_correction2(fun, start_point, end_point, step, e)
-
     tmp_result = [];
-    
-    if abs(start_point) + abs(start_point) < step || start_point > end_point
-       result = tmp_result;
-       return
-    end
 
     a = start_point;
     b = start_point + step;
     
     while b <= end_point
+        disp(a);
+        disp(b);
+        disp('----');
         nc = newton_correction(fun, a, b, e);
         
         if ~isempty(nc)

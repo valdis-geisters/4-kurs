@@ -1,4 +1,4 @@
-function result = newton_correction(fun, a, b, e)
+function result = newton(fun, a, b, e)
     syms f(x);
     f(x) = fun;
     fd(x) = diff(f(x));
@@ -11,20 +11,8 @@ function result = newton_correction(fun, a, b, e)
         Xi(i,1) = (a + b)/2;
 
         while flag == true
-
-            second_flag = true;
-            alpha = 1;
-            
-            while second_flag == true
-                Xi(i+1,1) = Xi(i,1) - alpha * (f(Xi(i,1)) / fd(Xi(i,1)));
                 
-                if abs(f(Xi(i+1,1))) > abs(f(Xi(i,1)))
-                    alpha = alpha / 2;
-                else
-                   second_flag = false; 
-                end
-
-            end
+            Xi(i+1,1) = Xi(i,1) - (f(Xi(i,1)) / fd(Xi(i,1)));
 
             if (abs(Xi(i+1,1)-Xi(i,1)) < e)
                 flag = false;
@@ -34,7 +22,7 @@ function result = newton_correction(fun, a, b, e)
         end
 
         i = i + 1;
-        %disp(i);
+        disp(Xi);
         result = Xi(i,1);
         
     else
