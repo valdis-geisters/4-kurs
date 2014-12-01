@@ -22,7 +22,6 @@ function result = newton(fun, a, b, e)
         end
 
         i = i + 1;
-        disp(Xi);
         result = Xi(i,1);
         
     else

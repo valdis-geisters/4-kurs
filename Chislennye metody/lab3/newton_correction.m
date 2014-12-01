@@ -10,6 +10,7 @@ function result = newton_correction(fun, a, b, e)
 
         Xi(i,1) = (a + b)/2;
 
+        j = 1;
         while flag == true
 
             second_flag = true;
@@ -17,7 +18,7 @@ function result = newton_correction(fun, a, b, e)
             
             while second_flag == true
                 Xi(i+1,1) = Xi(i,1) - alpha * (f(Xi(i,1)) / fd(Xi(i,1)));
-                
+                j = j + 1;
                 if abs(f(Xi(i+1,1))) > abs(f(Xi(i,1)))
                     alpha = alpha / 2;
                 else
@@ -34,7 +35,7 @@ function result = newton_correction(fun, a, b, e)
         end
 
         i = i + 1;
-        %disp(i);
+        disp(j);
         result = Xi(i,1);
         
     else
