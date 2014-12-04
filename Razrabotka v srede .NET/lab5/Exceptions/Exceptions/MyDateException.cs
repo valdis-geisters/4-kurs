@@ -13,7 +13,5 @@ namespace Exceptions
 
     public MyDateException(string message) : base(message) { }
 
-    public MyDateException(string message, Exception inner) : base(message, inner) { }
-
   }
 }

@@ -12,6 +12,7 @@ namespace Exceptions
     static void Main(string[] args)
     {
       Console.WriteLine("Программа вычисляет разность между двумя датами в днях\n");
+
       try
       {
         byte day = 0;
