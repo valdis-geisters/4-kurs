@@ -7,7 +7,7 @@ function [t, y] = adams_bashforth(h, y, interval)
     y = y_adams;
     
     i = 3;
-    while t(1,i) < interval
+    while t(1,i) < interval && i ~= length(t)
         f1 = f(t(1, i+1), y(1, i+1));
         f2 = f(t(1, i), y(1, i));
         f3 = f(t(1, i-1), y(1, i-1));

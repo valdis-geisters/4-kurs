@@ -1,13 +1,13 @@
 clear, clc, close all
 
-fun = 'x*2^(3*x)-14';
-%fun = 'x^2*sin(x)-14';
+%fun = 'x*2^(3*x)-14';
+fun = 'x^2*sin(x)-14';
 %fun = 'x^2+sin(x)-14';
 %fun = 'x*(sin(2*x))';
-%fun = '2^(3*x)-14';
+%fun = '2^(3*x)';
 
-start_point = 1;
-end_point = 2;
+start_point = -10;
+end_point = 10;
 step = 1;
 e = 0.0001;
 

@@ -4,7 +4,7 @@ function result = newton_correction(fun, a, b, e)
     fd(x) = diff(f(x));
     
     
-    if (f(a)*f(b) <=0 || fd((a+b)/2) ~= 0)
+    if (f(a)*f(b) <=0 && fd((a+b)/2) ~= 0)
         i = 1;
         flag = true;
 
