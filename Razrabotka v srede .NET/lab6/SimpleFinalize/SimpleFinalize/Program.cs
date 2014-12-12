@@ -18,7 +18,6 @@ namespace SimpleFinalize
       Console.WriteLine("Hit the return key to shut down this app");
       Console.WriteLine("and force the GC to invoke Finalize()");
       Console.WriteLine("for finalizable objects created in this AppDomain");
-
       Console.ReadLine();
     }
 
@@ -33,6 +32,7 @@ namespace SimpleFinalize
         Console.Write(".");
       }
 
+      Console.WriteLine("Освобождаем память");
       Console.ReadLine();
     }
   }

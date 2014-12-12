@@ -36,7 +36,7 @@ namespace Generation_GC
 
       var start = DateTime.Now;
       GC.Collect();
-      GC.WaitForPendingFinalizers();
+      //GC.WaitForPendingFinalizers();
 
       Console.WriteLine("GC отработал " + (DateTime.Now - start).Milliseconds);
       Console.WriteLine("Размер памяти в байтах в управляемой куче: {0}", GC.GetTotalMemory(false));
