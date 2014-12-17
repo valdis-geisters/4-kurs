@@ -3,7 +3,7 @@ function y = adams_bashforth(h, y, interval)
     t = 0:h:interval;
     
     % находим первые четыре точки
-    y = euler(h, y, 0, h*3, false);
+    y = euler(h, y, h*3);
     
     i = 3;
     while t(1,i) < interval && i ~= length(t)

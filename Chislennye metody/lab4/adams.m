@@ -3,7 +3,7 @@ function y = adams(h, y, interval)
     t = 0:h:interval;
     
     % находим первые 4 точки методом Эйлера
-    y = euler(h, y, 0, h*3, false);
+    y = euler(h, y, h*3);
     
     i = 4;
     while t(1,i) < interval && i ~= length(t)
