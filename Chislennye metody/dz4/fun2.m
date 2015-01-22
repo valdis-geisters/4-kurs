@@ -1,3 +1,3 @@
 function res = fun2(x)
-    res = x-0.003*(x*2^(3*x)-14);
+    res = diff(diff((log(x)^3) / (x^2) - 13)); % f''(x)
 end

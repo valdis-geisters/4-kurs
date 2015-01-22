@@ -48,7 +48,7 @@ action(                                         % описание действ�
 ) :- place(Place).                              % при этом выбранное место, должно относиться к places.
 
 initial(                                        % инициализация моего начального состояния
-  state(home, hasnot, notarrested)
+  state(home, hasnot, arrested)
 ).
 
 % initial(State), canArrest(State, []).     % вопрос

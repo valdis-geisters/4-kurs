@@ -1,6 +1,6 @@
 function result = bisection(fun, a, b, e)
-    syms f(x);
-    f(x) = fun;
+    %syms f(x);
+    %f(x) = fun;
     
     if (f(a)*f(b) <=0 )
         i = 1;

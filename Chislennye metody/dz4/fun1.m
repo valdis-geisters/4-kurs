@@ -1,3 +1,3 @@
 function res = fun1(x)
-    res = 8^x*(1+x*log(8));
+    res = diff((log(x)^3) / (x^2) - 13); % f'(x)
 end
